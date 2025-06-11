@@ -8,16 +8,12 @@ app.get('/getdata/:id',(req,res)=>{
     console.log(req.params.id);
     res.send("hello world");
 });
+
 app.post('/createdata',(req,res)=>{
     const data =req.body;
     console.log(data);
     res.send("data recieved");
 });
-
-
-
-
-
 
 
 
